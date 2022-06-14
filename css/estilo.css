@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background:rgb(223, 222, 198);
+}
+.navbar{
+   display: flex;
+   flex-flow: row wrap;
+    background: rgb(223, 222, 198);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    flex: 15%;
+    margin-left: 10%;
+    /*border: 1px solid red;*/
+    text-align: center;
+}
+
+.logo h1{
+    font-family: 'Lobster', cursive;
+    color: brown;
+}
+.menu{
+    flex: 65%;
+    margin-right: 10%;
+    /*border: 1px solid black;*/
+    text-align: right;
+    padding: 20px;
+}
+.menu a{
+    color: brown;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 20px 16px;
+}
+
+#botao{
+    background: rgb(223, 222, 198);
+    border-radius: 5px;
+    margin-right: 10%;
+    margin-left: 5%;
+}
+#botao:hover{
+    color: white;
+    border: none;
+    background: blueviolet;
+}
+.menu a:hover{
+    background: white;
+    color: brown;
+}
+
+.header{
+    
+    flex-flow: row wrap;
+    background:rgb(223, 198, 202) ;
+    display: flex;
+    
+    
+}
+.headline p{
+    font-family: 'Roboto', sans-serif;font-size: 15px;
+    font-weight: 100px;
+}
+.headline h2{
+    font-weight: 1000px;
+    font-size: 35px;
+    color: brown;
+    font-family: 'Lobster', cursive;
+    text-align: center;
+}
+.headline{
+    font-size: 20px;
+    flex: 40%;
+    margin-left: 10%;
+    text-align: left;
+   /* border: 1px solid red;*/
+}
+
+
+
+.img-headline{
+    flex: 40%;
+    margin-right: 10%;
+    /*border: 1px solid blue;*/
+    text-align: center;
+    
+}
+
+section{
+    /*border: 1px solid red;*/
+    display: inline-block;
+    margin-top: 80px;
+    /*border: 1px solid black;*/
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: center;
+    padding: 5%;
+    background:rgb(223, 198, 202) ;
+     ;
+}
+section h3{
+    color: brown;
+    text-align: center;
+    width: 100%;
+    font-size: 35px;
+    margin: 0;
+    font-family: 'Lobster', cursive;
+}
+.servicos{
+    display: inline-block;
+    margin-top: 5%;
+    
+}
+.cards{
+    display: inline-block;
+    background:rgb(223, 222, 198);
+    padding: 5%;
+    width: 31%;
+    margin: 1%;
+    /*border: 1px solid green;*/
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.cards:hover{
+    background: rgb(98, 0, 255);
+    color: aliceblue;
+    
+}
+
+.rodape{
+    margin-top: 100px;
+    
+    background-image: linear-gradient(180deg,rgb(196, 59, 59), rgb(139, 75, 87), rgb(197, 190, 186)  );
+    text-align: center;
+    color: rgb(46, 41, 41);
+    border-top: 5px;
+}
+
+.logo-rodape{
+    padding: 100px;
+    
+}
+
+.logo-rodape h1{
+    font-family: 'Lobster', cursive;
+    color: rgb(56, 13, 38);
+}
